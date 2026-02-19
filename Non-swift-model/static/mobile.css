@@ -1,0 +1,39 @@
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  overscroll-behavior-y: contain;
+  touch-action: manipulation;
+  background: #0e1117;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button, [role="button"], input, select, textarea {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .stApp {
+    min-height: 100dvh;
+  }
+
+  .block-container {
+    width: 100vw;
+    max-width: 100vw;
+    padding: 0.9rem 0.9rem 2rem 0.9rem !important;
+  }
+
+  .stButton > button {
+    min-height: 52px;
+    border-radius: 16px;
+    font-size: 1rem;
+  }
+
+  .stTextInput input, .stSelectbox div[data-baseweb="select"] {
+    min-height: 50px;
+  }
+}
