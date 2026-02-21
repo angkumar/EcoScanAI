@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* EcoScanAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* EcoScanAIApp.swift */; };
+		A10000020000000000000002 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000020000000000000002 /* AppContainer.swift */; };
+		A10000030000000000000003 /* ImpactScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000030000000000000003 /* ImpactScore.swift */; };
+		A10000040000000000000004 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000040000000000000004 /* Product.swift */; };
+		A10000050000000000000005 /* Disposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000050000000000000005 /* Disposal.swift */; };
+		A10000060000000000000006 /* ScanRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000060000000000000006 /* ScanRecord.swift */; };
+		A10000070000000000000007 /* ScanAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000070000000000000007 /* ScanAnalysis.swift */; };
+		A10000080000000000000008 /* OpenFoodFactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000080000000000000008 /* OpenFoodFactsService.swift */; };
+		A10000090000000000000009 /* ImpactScoringService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000090000000000000009 /* ImpactScoringService.swift */; };
+		A100000A000000000000000A /* DisposalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000A000000000000000A /* DisposalService.swift */; };
+		A100000B000000000000000B /* ScanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000B000000000000000B /* ScanStore.swift */; };
+		A100000C000000000000000C /* PDFReportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000C000000000000000C /* PDFReportService.swift */; };
+		A100000D000000000000000D /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000D000000000000000D /* BarcodeScannerView.swift */; };
+		A100000E000000000000000E /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000E000000000000000E /* ScannerViewModel.swift */; };
+		A100000F000000000000000F /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000F000000000000000F /* HistoryViewModel.swift */; };
+		A10000100000000000000010 /* AnalyticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000100000000000000010 /* AnalyticsViewModel.swift */; };
+		A10000110000000000000011 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000110000000000000011 /* Theme.swift */; };
+		A10000120000000000000012 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000120000000000000012 /* RootTabView.swift */; };
+		A10000130000000000000013 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000130000000000000013 /* ScannerView.swift */; };
+		A10000140000000000000014 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000140000000000000014 /* Components.swift */; };
+		A10000150000000000000015 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000150000000000000015 /* HistoryView.swift */; };
+		A10000160000000000000016 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000160000000000000016 /* AnalyticsView.swift */; };
+		A10000170000000000000017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000170000000000000017 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* EcoScanAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoScanAIApp.swift; sourceTree = "<group>"; };
+		A20000020000000000000002 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		A20000030000000000000003 /* ImpactScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactScore.swift; sourceTree = "<group>"; };
+		A20000040000000000000004 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A20000050000000000000005 /* Disposal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposal.swift; sourceTree = "<group>"; };
+		A20000060000000000000006 /* ScanRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRecord.swift; sourceTree = "<group>"; };
+		A20000070000000000000007 /* ScanAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAnalysis.swift; sourceTree = "<group>"; };
+		A20000080000000000000008 /* OpenFoodFactsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFoodFactsService.swift; sourceTree = "<group>"; };
+		A20000090000000000000009 /* ImpactScoringService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactScoringService.swift; sourceTree = "<group>"; };
+		A200000A000000000000000A /* DisposalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposalService.swift; sourceTree = "<group>"; };
+		A200000B000000000000000B /* ScanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanStore.swift; sourceTree = "<group>"; };
+		A200000C000000000000000C /* PDFReportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReportService.swift; sourceTree = "<group>"; };
+		A200000D000000000000000D /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		A200000E000000000000000E /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		A200000F000000000000000F /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		A20000100000000000000010 /* AnalyticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewModel.swift; sourceTree = "<group>"; };
+		A20000110000000000000011 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A20000120000000000000012 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		A20000130000000000000013 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		A20000140000000000000014 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		A20000150000000000000015 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A20000160000000000000016 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		A20000170000000000000017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000180000000000000018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000190000000000000019 /* EcoScanAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoScanAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000020000000000000002 /* EcoScanAI */,
+				A40000030000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000020000000000000002 /* EcoScanAI */ = {
+			isa = PBXGroup;
+			path = EcoScanAI;
+			sourceTree = "<group>";
+			children = (
+				A20000010000000000000001 /* EcoScanAIApp.swift */,
+				A20000020000000000000002 /* AppContainer.swift */,
+				A40000040000000000000004 /* Models */,
+				A40000050000000000000005 /* Services */,
+				A40000060000000000000006 /* ViewModels */,
+				A40000070000000000000007 /* Views */,
+				A40000080000000000000008 /* Resources */,
+			);
+		};
+		A40000030000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000190000000000000019 /* EcoScanAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000040000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			path = Models;
+			sourceTree = "<group>";
+			children = (
+				A20000030000000000000003 /* ImpactScore.swift */,
+				A20000040000000000000004 /* Product.swift */,
+				A20000050000000000000005 /* Disposal.swift */,
+				A20000060000000000000006 /* ScanRecord.swift */,
+				A20000070000000000000007 /* ScanAnalysis.swift */,
+			);
+		};
+		A40000050000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			path = Services;
+			sourceTree = "<group>";
+			children = (
+				A20000080000000000000008 /* OpenFoodFactsService.swift */,
+				A20000090000000000000009 /* ImpactScoringService.swift */,
+				A200000A000000000000000A /* DisposalService.swift */,
+				A200000B000000000000000B /* ScanStore.swift */,
+				A200000C000000000000000C /* PDFReportService.swift */,
+				A200000D000000000000000D /* BarcodeScannerView.swift */,
+			);
+		};
+		A40000060000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+			children = (
+				A200000E000000000000000E /* ScannerViewModel.swift */,
+				A200000F000000000000000F /* HistoryViewModel.swift */,
+				A20000100000000000000010 /* AnalyticsViewModel.swift */,
+			);
+		};
+		A40000070000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			path = Views;
+			sourceTree = "<group>";
+			children = (
+				A20000110000000000000011 /* Theme.swift */,
+				A20000120000000000000012 /* RootTabView.swift */,
+				A20000130000000000000013 /* ScannerView.swift */,
+				A20000140000000000000014 /* Components.swift */,
+				A20000150000000000000015 /* HistoryView.swift */,
+				A20000160000000000000016 /* AnalyticsView.swift */,
+			);
+		};
+		A40000080000000000000008 /* Resources */ = {
+			isa = PBXGroup;
+			path = Resources;
+			sourceTree = "<group>";
+			children = (
+				A20000170000000000000017 /* Assets.xcassets */,
+				A20000180000000000000018 /* Info.plist */,
+			);
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000010000000000000001 /* EcoScanAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000020000000000000002 /* Build configuration list for PBXNativeTarget "EcoScanAI" */;
+			buildPhases = (
+				A30000020000000000000002 /* Sources */,
+				A30000010000000000000001 /* Frameworks */,
+				A30000030000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoScanAI;
+			productName = EcoScanAI;
+			productReference = A20000190000000000000019 /* EcoScanAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A50000010000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A60000000000000000000000 /* Build configuration list for PBXProject "EcoScanAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000010000000000000001;
+			productRefGroup = A40000030000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000010000000000000001 /* EcoScanAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30000030000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000170000000000000017 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30000020000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* EcoScanAIApp.swift in Sources */,
+				A10000020000000000000002 /* AppContainer.swift in Sources */,
+				A10000030000000000000003 /* ImpactScore.swift in Sources */,
+				A10000040000000000000004 /* Product.swift in Sources */,
+				A10000050000000000000005 /* Disposal.swift in Sources */,
+				A10000060000000000000006 /* ScanRecord.swift in Sources */,
+				A10000070000000000000007 /* ScanAnalysis.swift in Sources */,
+				A10000080000000000000008 /* OpenFoodFactsService.swift in Sources */,
+				A10000090000000000000009 /* ImpactScoringService.swift in Sources */,
+				A100000A000000000000000A /* DisposalService.swift in Sources */,
+				A100000B000000000000000B /* ScanStore.swift in Sources */,
+				A100000C000000000000000C /* PDFReportService.swift in Sources */,
+				A100000D000000000000000D /* BarcodeScannerView.swift in Sources */,
+				A100000E000000000000000E /* ScannerViewModel.swift in Sources */,
+				A100000F000000000000000F /* HistoryViewModel.swift in Sources */,
+				A10000100000000000000010 /* AnalyticsViewModel.swift in Sources */,
+				A10000110000000000000011 /* Theme.swift in Sources */,
+				A10000120000000000000012 /* RootTabView.swift in Sources */,
+				A10000130000000000000013 /* ScannerView.swift in Sources */,
+				A10000140000000000000014 /* Components.swift in Sources */,
+				A10000150000000000000015 /* HistoryView.swift in Sources */,
+				A10000160000000000000016 /* AnalyticsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A70000000000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A70000010000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A70000020000000000000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EcoScanAI/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoscan.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		A70000030000000000000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EcoScanAI/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoscan.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000000000000000000000 /* Build configuration list for PBXProject "EcoScanAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70000000000000000000000 /* Debug */,
+				A70000010000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000020000000000000002 /* Build configuration list for PBXNativeTarget "EcoScanAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70000020000000000000002 /* Debug */,
+				A70000030000000000000003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000010000000000000001 /* Project object */;
+}
