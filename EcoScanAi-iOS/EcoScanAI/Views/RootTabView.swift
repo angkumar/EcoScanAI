@@ -29,3 +29,7 @@ struct RootTabView: View {
         .tint(EcoTheme.accent)
     }
 }
+
+#Preview {
+    RootTabView()
+}

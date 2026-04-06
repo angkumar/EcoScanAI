@@ -108,3 +108,7 @@ private struct ActivityView: UIViewControllerRepresentable {
 
     func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
 }
+
+#Preview {
+    AnalyticsView(viewModel: AnalyticsViewModel(scanStore: ScanStore(), reportService: PDFReportService()))
+}

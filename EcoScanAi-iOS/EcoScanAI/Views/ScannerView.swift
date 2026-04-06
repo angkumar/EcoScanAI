@@ -190,3 +190,15 @@ private struct AccentButtonStyle: ButtonStyle {
             .background(EcoTheme.accent.opacity(configuration.isPressed ? 0.72 : 1.0), in: RoundedRectangle(cornerRadius: 14))
     }
 }
+
+#Preview {
+    let container = AppContainer()
+    ScannerView(
+        viewModel: ScannerViewModel(
+            openFoodFactsService: container.openFoodFactsService,
+            scoringService: container.scoringService,
+            disposalService: container.disposalService,
+            scanStore: container.scanStore
+        )
+    )
+}

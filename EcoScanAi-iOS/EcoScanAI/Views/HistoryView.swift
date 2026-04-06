@@ -19,7 +19,7 @@ struct HistoryView: View {
     private var summary: some View {
         HStack(spacing: 10) {
             summaryCard(title: "Weekly Scans", value: "\(viewModel.weeklySummary.totalScans)")
-            summaryCard(title: "Weekly CO2", value: "\(viewModel.weeklySummary.totalCO2, specifier: "%.1f") kg")
+            summaryCard(title: "Weekly CO2", value: "\(viewModel.weeklySummary.totalCO2, default: "%.1f") kg")
             summaryCard(title: "Streak", value: "\(viewModel.weeklySummary.streakDays) 🔥")
         }
     }
@@ -64,4 +64,8 @@ struct HistoryView: View {
         .listStyle(.plain)
         .clipShape(RoundedRectangle(cornerRadius: 18))
     }
+}
+
+#Preview {
+    HistoryView(viewModel: HistoryViewModel(scanStore: ScanStore()))
 }
